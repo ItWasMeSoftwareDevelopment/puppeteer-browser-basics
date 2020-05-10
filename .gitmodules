@@ -1,0 +1,16 @@
+[submodule "common-logging"]
+	path = submodules/common_logging
+	url = https://github.com/ItWasMeSoftwareDevelopment/common_logging.git
+	branch = master
+[submodule "thread-utils"]
+	path = submodules/thread_utils
+	url = https://github.com/ItWasMeSoftwareDevelopment/thread_utils.git
+	branch = master
+[submodule "string-utils"]
+	path = submodules/string_utils
+	url = https://github.com/ItWasMeSoftwareDevelopment/string_utils.git
+	branch = master
+[submodule "static-references"]
+	path = submodules/static_references
+	url = https://github.com/ItWasMeSoftwareDevelopment/static_references.git
+	branch = master

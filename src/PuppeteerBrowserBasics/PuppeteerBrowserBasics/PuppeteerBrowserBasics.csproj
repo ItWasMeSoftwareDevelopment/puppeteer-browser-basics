@@ -21,4 +21,11 @@
     <PackageReference Include="PuppeteerSharp" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\..\..\submodules\common_logging\CommonLogging.csproj" />
+    <ProjectReference Include="..\..\..\submodules\static_references\src\StaticReferences\StaticReferences\StaticReferences.csproj" />
+    <ProjectReference Include="..\..\..\submodules\string_utils\src\Common.StringUtils\Common.StringUtils\Common.StringUtils.csproj" />
+    <ProjectReference Include="..\..\..\submodules\thread_utils\src\ThreadUtils\ThreadUtils\ThreadUtils.csproj" />
+  </ItemGroup>
+
 </Project>

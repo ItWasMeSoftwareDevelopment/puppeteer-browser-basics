@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuppeteerBrowserBasics", "PuppeteerBrowserBasics\PuppeteerBrowserBasics.csproj", "{DE00F1AA-92F1-4D2E-90D1-2B82EB7067A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{1F0C8B94-54F8-48F1-BAD1-05B7C5B65F0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLogging", "..\..\submodules\common_logging\CommonLogging.csproj", "{1F19462B-19D8-494D-9C30-C57BE47199E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadUtils", "..\..\submodules\thread_utils\src\ThreadUtils\ThreadUtils\ThreadUtils.csproj", "{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.StringUtils", "..\..\submodules\string_utils\src\Common.StringUtils\Common.StringUtils\Common.StringUtils.csproj", "{FE6CA248-5445-45C3-AEF6-95CAE787FB33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticReferences", "..\..\submodules\static_references\src\StaticReferences\StaticReferences\StaticReferences.csproj", "{848F5B78-9292-4535-9850-4915E0DDF7B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,31 @@ Global
 		{DE00F1AA-92F1-4D2E-90D1-2B82EB7067A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE00F1AA-92F1-4D2E-90D1-2B82EB7067A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE00F1AA-92F1-4D2E-90D1-2B82EB7067A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F19462B-19D8-494D-9C30-C57BE47199E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F19462B-19D8-494D-9C30-C57BE47199E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F19462B-19D8-494D-9C30-C57BE47199E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F19462B-19D8-494D-9C30-C57BE47199E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6CA248-5445-45C3-AEF6-95CAE787FB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6CA248-5445-45C3-AEF6-95CAE787FB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6CA248-5445-45C3-AEF6-95CAE787FB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6CA248-5445-45C3-AEF6-95CAE787FB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848F5B78-9292-4535-9850-4915E0DDF7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848F5B78-9292-4535-9850-4915E0DDF7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848F5B78-9292-4535-9850-4915E0DDF7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848F5B78-9292-4535-9850-4915E0DDF7B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F19462B-19D8-494D-9C30-C57BE47199E7} = {1F0C8B94-54F8-48F1-BAD1-05B7C5B65F0F}
+		{F9BE5B23-37CD-4EE8-9D1A-F54AB891AEDA} = {1F0C8B94-54F8-48F1-BAD1-05B7C5B65F0F}
+		{FE6CA248-5445-45C3-AEF6-95CAE787FB33} = {1F0C8B94-54F8-48F1-BAD1-05B7C5B65F0F}
+		{848F5B78-9292-4535-9850-4915E0DDF7B3} = {1F0C8B94-54F8-48F1-BAD1-05B7C5B65F0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0792B2A-D532-41D2-A64A-39922739608F}
